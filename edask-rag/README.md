@@ -1,9 +1,9 @@
-# ED(A)SK — A Minimal, Modern RAG
+# ED(A)SK  A Minimal, Modern RAG
 
 A small but production-shaped Retrieval-Augmented Generation system built around the three components from the *ED(A)SK* deck:
 
-1. **Embedding model** — converts text into dense semantic vectors.
-2. **Vector store** — persists embeddings and supports fast similarity search.
+1. **Embedding model**  converts text into dense semantic vectors.
+2. **Vector store**  persists embeddings and supports fast similarity search.
 3. **Retrieval via similarity search** — k-NN over cosine similarity to fetch the most relevant chunks for a query, then ground an LLM on them.
 
 The goal is to keep each concept visible (one file per concept) rather than hide it behind a single framework call, while still using the best-in-class tools for each layer.
