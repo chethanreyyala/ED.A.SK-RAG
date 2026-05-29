@@ -1,0 +1,27 @@
+# envs
+.env
+.venv/
+venv/
+
+# python
+__pycache__/
+*.py[cod]
+*$py.class
+.pytest_cache/
+.ruff_cache/
+.mypy_cache/
+*.egg-info/
+dist/
+build/
+
+# qdrant local data
+qdrant_storage/
+
+# model caches
+.fastembed_cache/
+.cache/
+
+# editors
+.vscode/
+.idea/
+.DS_Store
